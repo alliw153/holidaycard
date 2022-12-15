@@ -1,0 +1,57 @@
+body {
+    background-color: #F6EEC9;
+    font-family:'Dancing Script', cursive;
+}
+.tree img {
+    animation: tree 7s linear infinite;
+}
+.tree {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    bottom: -70px;
+}
+@keyframes tree{
+    0%{transform: translateY();
+        opacity: 0;}
+    50%{opacity: 1;}
+    75%{opacity: 1;}
+    100%{transform: translateY(-80vh);
+        opacity: 0;}
+}
+.tree img:nth-child(1){
+    animation-delay: 2s;
+}
+.tree img:nth-child(2){
+    animation-delay: 1s;
+}
+.tree img:nth-child(3){
+    animation-delay: 3s;
+}
+.tree img:nth-child(4){
+    animation-delay: 4.5s;
+}
+.tree img:nth-child(5){
+    animation-delay: 3s;
+}
+.tree img:nth-child(6){
+    animation-delay: 6s;
+}
+.tree img:nth-child(7){
+    animation-delay: 7s;
+}
+.card {
+    color: #A20A0A;
+    font-size: 30px;
+    text-align: center;
+}
+.message {
+    color: #799351;
+    font-size: 20px;
+    text-align: center;
+}
+.gif {
+    text-align: center;
+}
